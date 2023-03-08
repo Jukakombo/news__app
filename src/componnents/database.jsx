@@ -7,6 +7,7 @@ export const data = [
   {
     _id: "9887hjxbxuxsx",
     image: image1,
+    journalist: "Ali Abdallah",
     paragraphe_1:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatum deserunt praesentium quam officia at. Laudantium, amet voluptas blanditiis hic fugiat sunt nesciunt fugit consectetur libero, impedit aliquam natus ea?",
     paragraphe_2:
@@ -17,6 +18,7 @@ export const data = [
   {
     _id: "9887hjxbxuxs1",
     image: pic1,
+    journalist: "Mohamed Abdallah",
     paragraphe_1:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatum deserunt praesentium quam officia at. Laudantium, amet voluptas blanditiis hic fugiat sunt nesciunt fugit consectetur libero, impedit aliquam natus ea?",
     paragraphe_2:
@@ -27,6 +29,7 @@ export const data = [
   {
     _id: "9887hjxbxuxs2",
     image: pic2,
+    journalist: "Sarah SAleh",
     paragraphe_1:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatum deserunt praesentium quam officia at. Laudantium, amet voluptas blanditiis hic fugiat sunt nesciunt fugit consectetur libero, impedit aliquam natus ea?",
     paragraphe_2:
@@ -36,6 +39,7 @@ export const data = [
   },
   {
     _id: "9887hjxbxuxs3",
+    journalist: "Jamal Housin",
     image: pic3,
     paragraphe_1:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatum deserunt praesentium quam officia at. Laudantium, amet voluptas blanditiis hic fugiat sunt nesciunt fugit consectetur libero, impedit aliquam natus ea?",

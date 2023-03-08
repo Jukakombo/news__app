@@ -7,6 +7,8 @@ import Contact from "./componnents/Contact";
 import Publish from "./componnents/Publish";
 import NewsDetail from "./componnents/NewsDetail";
 import Loading from "./componnents/Loading";
+import PublishNews from "./componnents/PublishNews";
+import Register from "./componnents/Register";
 
 function App() {
   const [load, setLoad] = useState(false);
@@ -32,7 +34,9 @@ function App() {
             <Route exact path="/articles" element={<Articles />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/publish" element={<Publish />} />
-            <Route exact path="/news/:id" element={<NewsDetail />} />
+            <Route exact path="/publishNews" element={<PublishNews />} />
+            <Route exact path="/news-details/:id" element={<NewsDetail />} />
+            <Route exact path="/Register" element={<Register />} />
           </Routes>
         </div>
       )}

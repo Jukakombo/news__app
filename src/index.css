@@ -94,6 +94,49 @@ p {
   justify-content: space-between;
   margin: 10px;
 }
+/* form */
+
+/* Registration form */
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.registration__form > input {
+  padding: 10px;
+}
+.register__form {
+  width: 400px;
+  padding: 15px;
+  margin: auto;
+}
+.register__button {
+  width: 100%;
+  font-size: 19px;
+  padding: 6px;
+  background-color: red;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+.register__button:hover {
+  cursor: pointer;
+}
+/* error message */
+.errorMessage {
+  font-size: 10px;
+  color: #fe0000;
+  padding: 3px;
+  /* display: none; */
+}
+/* set focuss cess */
+input:invalid[focused="true"] {
+  border: 1px solid red;
+  outline: none;
+}
+input:invalid[focused="true"] ~ .errorMessage {
+  display: block;
+}
 
 /* media query for controlling the screen in all devices */
 @media screen and (max-width: 678px) {

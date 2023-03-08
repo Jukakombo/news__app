@@ -12,6 +12,7 @@ function Header() {
     { _id: 3, name: "Articles" },
     { _id: 4, name: "Contact" },
     { _id: 5, name: "Publish" },
+    { _id: 6, name: "Register" },
   ];
 
   const closeMenu = () => {
