@@ -48,7 +48,7 @@ function Register() {
       id: 4,
       required: true,
       name: "password",
-      type: "text",
+      type: "password",
       placeholder: "Please enter your password",
       label: "Password",
       errorMessage:
@@ -60,7 +60,7 @@ function Register() {
       id: 5,
       required: true,
       name: "confirmPassword",
-      type: "text",
+      type: "password",
       placeholder: "Please enter your confirm password",
       label: "Confirm Password",
       errorMessage: "Password don't match!",
