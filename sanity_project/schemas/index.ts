@@ -1,2 +1,3 @@
 import news from './news'
-export const schemaTypes = [news]
+import contact from "./contact"
+export const schemaTypes = [news,contact]

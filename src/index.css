@@ -138,7 +138,37 @@ input:invalid[focused="true"] {
 input:invalid[focused="true"] ~ .errorMessage {
   display: block;
 }
-
+/* contact */
+.form_____data {
+  margin: auto;
+  width: 80%;
+}
+.form__data {
+  display: flex;
+  flex-direction: column;
+}
+.form__data > input {
+  padding: 7px;
+  outline: none;
+  margin: 10px 0;
+}
+.contact__button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+}
+.form__data > textarea {
+  outline: none;
+  margin-bottom: 10px;
+}
+.contact__button:hover {
+  cursor: pointer;
+}
 /* media query for controlling the screen in all devices */
 @media screen and (max-width: 678px) {
   .footer {

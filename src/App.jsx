@@ -33,10 +33,10 @@ function App() {
             <Route exact path="/home" element={<Home />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/articles" element={<Articles />} />
-            <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/publish" element={<Publish />} />
             <Route exact path="/news-details/:id" element={<NewsDetail />} />
             <Route exact path="/Register" element={<Register />} />
+            <Route exact path="/contact" element={<Contact />} />
           </Routes>
         </div>
       )}
