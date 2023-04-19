@@ -9,6 +9,8 @@ import NewsDetail from "./componnents/NewsDetail";
 import Loading from "./componnents/Loading";
 // import PublishNews from "./componnents/PublishNews";
 import Register from "./componnents/Register";
+import Dashboard from "./componnents/Dashboard";
+import DasboardDetail from "./componnents/DasboardDetail";
 
 function App() {
   const [load, setLoad] = useState(false);
@@ -37,6 +39,9 @@ function App() {
             <Route exact path="/news-details/:id" element={<NewsDetail />} />
             <Route exact path="/Register" element={<Register />} />
             <Route exact path="/contact" element={<Contact />} />
+            <Route exact path={"/dashboard"} element={<Dashboard />}>
+              <Route exact path="/dashboard/:id" element={<DasboardDetail />} />
+            </Route>
           </Routes>
         </div>
       )}
